@@ -1,10 +1,8 @@
-
-
 import React from 'react';
 import { render } from 'react-dom';
 
 
-class App extends React.Component {
+class Rect extends React.Component {
   constructor() {
     super();
     this.state = {rect: {x: 0, y: 0}};
@@ -62,7 +60,4 @@ class App extends React.Component {
   }
 }
 
-// render(<Rect />, document.getElementById('root'));
-
-
-export default App;
+render(<Rect />, document.getElementById('root'));
